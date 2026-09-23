@@ -4,7 +4,7 @@
 
 Développement d’une application web permettant de visualiser graphiquement la simulation de l’ordonnancement des tâches dans les systèmes temps réel modélisés avec Cheddar. Le projet vise à proposer une alternative aux limitations de compatibilité entre Cheddar et certains systèmes d’exploitation, en permettant d’exploiter et de visualiser les simulations directement depuis une interface web.
 
-## Technologies et compétences
+## Environnement technique 
 
     - Frontend : HTML, CSS, JavaScript
     - Données : XML
