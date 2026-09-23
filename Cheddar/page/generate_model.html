@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cheddar - Scheduling Simulation</title>
+    <link rel="stylesheet" href="../css/style.css"/>
+    <script src="../script/simulation.js" defer></script>
+    <script src="../script/generate_model.js" defer></script>
+</head>
+
+<body>
+    <div id="app_info" width="400px">
+        <div id="app_name">
+            <h3> 
+                <img src="../img/home-icon.png" height="30px" width="30px">
+                Cheddar Web App
+            </h3>
+        </div>
+        <div id="menu">
+            <ol><strong>Home Table of Content</strong></ol>
+            <hr>
+            <a href="../index.html"><ul>1 - Scheduling Simulation</ul></a>
+            <a><ul>2 - Generating a System Model</ul></a>
+            <br><br>
+        </div>
+        <div id="navigation">
+            <table class="nav">
+                <td class="nav"><a href="../index.html">Previous</a></td>
+                <td class="nav">Next</td>
+            </table>
+        </div>
+    </div>
+    <div id="content">
+        <br>
+        <p>
+            <img src="../img/home-icon.png" height="15px" width="15px">
+            <img src="../img/direction-icon.png" height="14px" width="14px">
+            Generating a System Model
+        </p>
+        <hr>
+        <h2>2 - Generating a System Model</h2>
+        <table>
+            <tr>
+                <td style='border: none'>
+                    <p>To add a new task, click the <b class="btnCSS">Add Task</b> button and fill in the required details.
+                    Once you're </p> <p> done, click<b class="btnCSS">Save Model</b> to save your changes or <b class="btnCSS">Remove Task</b> 
+                    to delete a task. Finally,</p> <p> to create the updated system model with your new task included
+                    click <b class="btnCSS">Generate</b>.</p>
+                    
+                </td>
+            </tr>
+            <tr> 
+                <td style='border: none; display: flex; align-items: center;'>
+                    <button type="button" id="addTaskBtn" onclick="addInputs()">
+                        <strong>Add Task</strong>
+                    </button> 
+                    <button type="button" id="removeTaskBtn" onclick="removeInputs()">
+                        <strong>Remove Task</strong>
+                    </button>
+                    <button type="button" id="saveTaskBtn" onclick="saveModel()">
+                        <strong>Save Model</strong>
+                    </button>
+                    <button type="button" id="generateBtn" onclick="loadXMLData()">
+                        <strong>Generate</strong>
+                    </button>
+                   <span id="data_display" style='margin-left: 50px;'></span>
+                </td>
+            </tr>
+        </table>
+        <br>
+        <table>
+            <tbody id="addingZone">
+
+            </tbody>
+              <!-- <tr id="addingZone">
+                    <td class="content">
+                    <label for="add_taskName">Task Name</label>
+                    <input type="text" id="add_taskName" name="add_taskName" size="10" style="margin-right: 10px;">
+                    <label for="add_period">Period</label>
+                    <input type="text" id="add_period" name="add_period" size="5" style="margin-right: 10px;">
+                    <label for="add_deadline">Deadline</label>
+                    <input type="text" id="add_deadline" name="add_deadline" size="5" style="margin-right: 10px;">
+                    <label for="add_capacity">Capacity</label>
+                    <input type="text" id="add_capacity" name="add_capacity" size="5">
+                </td>
+            </tr>
+            <tr  id="data_display">
+            </tr>
+            <tr  id="display_task">
+            </tr> -->
+        </table>
+    </div>
+</body>
+
+</html>

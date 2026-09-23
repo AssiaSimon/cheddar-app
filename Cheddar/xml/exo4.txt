@@ -1,0 +1,65 @@
+
+
+Question 1 :
+
+Cf. fichier exo4.xmlv3 
+
+
+Question 4 :
+
+T1 alloue la ressource aux intants 1, 12, 14 et 23
+T1 libère la ressource aux intants 2, 13, 15 et 24
+T3 alloue la ressource aux intants 4 et 15
+T3 libère la ressource aux intants 12 et 23
+
+
+Question 5 :
+
+oui, une inversion de priorité intervient entre les instants 4 et 12, puis entre
+les instants 15 et 23
+
+
+Questions 6 et 7 :
+
+Avec PIP, les inversions de priorités sont évitées
+
+Question 8 :
+
+T3 voit sa priorité augmenter à l'instant 7 puis diminuer à l'instant 10
+T3 voit sa priorité augmenter à l'instant 19 puis diminuer à l'instant 23
+
+Question 9 
+
+Les pires temps de réponse calculés sont 
+    - T1 : 2
+    - T2 : 4 
+    - T3 : 15
+
+Ces pires temps de réponse sont faux ... car ces temps ne tiennent pas compte du partage de ressources.
+En effet,  ces pires temps de réponse de comportent pas les pires temps d'attente/de blocage sur les ressources
+partagées.
+
+Question 10 :
+
+Les pires temps de blocage sur les ressources sont 
+    - T1 : 5
+    - T2 : 5 
+    - T3 : 0
+
+T1 et T2 doivent attendre 5 unités de temps correspondant à la section
+critique de la tâche T3.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

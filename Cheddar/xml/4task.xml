@@ -1,0 +1,867 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<event_table>
+ <time_unit>0</time_unit>
+ <time_unit_event>
+  <type_of_event>TASK_ACTIVATION</type_of_event>
+  <activation_task ref="id_74">
+  </activation_task>
+ </time_unit_event>
+ <time_unit>0</time_unit>
+ <time_unit_event>
+  <type_of_event>TASK_ACTIVATION</type_of_event>
+  <activation_task ref="id_75">
+  </activation_task>
+ </time_unit_event>
+ <time_unit>0</time_unit>
+ <time_unit_event>
+  <type_of_event>TASK_ACTIVATION</type_of_event>
+  <activation_task ref="id_95">
+  </activation_task>
+ </time_unit_event>
+ <time_unit>2</time_unit>
+ <time_unit_event>
+  <type_of_event>TASK_ACTIVATION</type_of_event>
+  <activation_task ref="id_96">
+  </activation_task>
+ </time_unit_event>
+ <time_unit>0</time_unit>
+ <time_unit_event>
+  <type_of_event>START_OF_TASK_CAPACITY</type_of_event>
+  <start_task ref="id_74">
+  </start_task>
+ </time_unit_event>
+ <time_unit>0</time_unit>
+ <time_unit_event>
+  <type_of_event>RUNNING_TASK</type_of_event>
+  <running_core>Core_01</running_core>
+  <running_task ref="id_74">
+  </running_task>
+  <current_priority>100</current_priority>
+  <CRPD>0</CRPD>
+  <cache_state>
+  </cache_state>
+ </time_unit_event>
+ <time_unit>1</time_unit>
+ <time_unit_event>
+  <type_of_event>RUNNING_TASK</type_of_event>
+  <running_core>Core_01</running_core>
+  <running_task ref="id_74">
+  </running_task>
+  <current_priority>100</current_priority>
+  <CRPD>0</CRPD>
+  <cache_state>
+  </cache_state>
+ </time_unit_event>
+ <time_unit>2</time_unit>
+ <time_unit_event>
+  <type_of_event>END_OF_TASK_CAPACITY</type_of_event>
+  <end_task ref="id_74">
+  </end_task>
+ </time_unit_event>
+ <time_unit>6</time_unit>
+ <time_unit_event>
+  <type_of_event>TASK_ACTIVATION</type_of_event>
+  <activation_task ref="id_74">
+  </activation_task>
+ </time_unit_event>
+ <time_unit>2</time_unit>
+ <time_unit_event>
+  <type_of_event>START_OF_TASK_CAPACITY</type_of_event>
+  <start_task ref="id_96">
+  </start_task>
+ </time_unit_event>
+ <time_unit>2</time_unit>
+ <time_unit_event>
+  <type_of_event>RUNNING_TASK</type_of_event>
+  <running_core>Core_01</running_core>
+  <running_task ref="id_96">
+  </running_task>
+  <current_priority>150</current_priority>
+  <CRPD>0</CRPD>
+  <cache_state>
+  </cache_state>
+ </time_unit_event>
+ <time_unit>3</time_unit>
+ <time_unit_event>
+  <type_of_event>RUNNING_TASK</type_of_event>
+  <running_core>Core_01</running_core>
+  <running_task ref="id_96">
+  </running_task>
+  <current_priority>150</current_priority>
+  <CRPD>0</CRPD>
+  <cache_state>
+  </cache_state>
+ </time_unit_event>
+ <time_unit>4</time_unit>
+ <time_unit_event>
+  <type_of_event>END_OF_TASK_CAPACITY</type_of_event>
+  <end_task ref="id_96">
+  </end_task>
+ </time_unit_event>
+ <time_unit>12</time_unit>
+ <time_unit_event>
+  <type_of_event>TASK_ACTIVATION</type_of_event>
+  <activation_task ref="id_96">
+  </activation_task>
+ </time_unit_event>
+ <time_unit>4</time_unit>
+ <time_unit_event>
+  <type_of_event>START_OF_TASK_CAPACITY</type_of_event>
+  <start_task ref="id_75">
+  </start_task>
+ </time_unit_event>
+ <time_unit>4</time_unit>
+ <time_unit_event>
+  <type_of_event>RUNNING_TASK</type_of_event>
+  <running_core>Core_01</running_core>
+  <running_task ref="id_75">
+  </running_task>
+  <current_priority>40</current_priority>
+  <CRPD>0</CRPD>
+  <cache_state>
+  </cache_state>
+ </time_unit_event>
+ <time_unit>5</time_unit>
+ <time_unit_event>
+  <type_of_event>RUNNING_TASK</type_of_event>
+  <running_core>Core_01</running_core>
+  <running_task ref="id_75">
+  </running_task>
+  <current_priority>40</current_priority>
+  <CRPD>0</CRPD>
+  <cache_state>
+  </cache_state>
+ </time_unit_event>
+ <time_unit>6</time_unit>
+ <time_unit_event>
+  <type_of_event>END_OF_TASK_CAPACITY</type_of_event>
+  <end_task ref="id_75">
+  </end_task>
+ </time_unit_event>
+ <time_unit>8</time_unit>
+ <time_unit_event>
+  <type_of_event>TASK_ACTIVATION</type_of_event>
+  <activation_task ref="id_75">
+  </activation_task>
+ </time_unit_event>
+ <time_unit>6</time_unit>
+ <time_unit_event>
+  <type_of_event>START_OF_TASK_CAPACITY</type_of_event>
+  <start_task ref="id_74">
+  </start_task>
+ </time_unit_event>
+ <time_unit>6</time_unit>
+ <time_unit_event>
+  <type_of_event>RUNNING_TASK</type_of_event>
+  <running_core>Core_01</running_core>
+  <running_task ref="id_74">
+  </running_task>
+  <current_priority>100</current_priority>
+  <CRPD>0</CRPD>
+  <cache_state>
+  </cache_state>
+ </time_unit_event>
+ <time_unit>7</time_unit>
+ <time_unit_event>
+  <type_of_event>RUNNING_TASK</type_of_event>
+  <running_core>Core_01</running_core>
+  <running_task ref="id_74">
+  </running_task>
+  <current_priority>100</current_priority>
+  <CRPD>0</CRPD>
+  <cache_state>
+  </cache_state>
+ </time_unit_event>
+ <time_unit>8</time_unit>
+ <time_unit_event>
+  <type_of_event>END_OF_TASK_CAPACITY</type_of_event>
+  <end_task ref="id_74">
+  </end_task>
+ </time_unit_event>
+ <time_unit>12</time_unit>
+ <time_unit_event>
+  <type_of_event>TASK_ACTIVATION</type_of_event>
+  <activation_task ref="id_74">
+  </activation_task>
+ </time_unit_event>
+ <time_unit>8</time_unit>
+ <time_unit_event>
+  <type_of_event>START_OF_TASK_CAPACITY</type_of_event>
+  <start_task ref="id_75">
+  </start_task>
+ </time_unit_event>
+ <time_unit>8</time_unit>
+ <time_unit_event>
+  <type_of_event>RUNNING_TASK</type_of_event>
+  <running_core>Core_01</running_core>
+  <running_task ref="id_75">
+  </running_task>
+  <current_priority>40</current_priority>
+  <CRPD>0</CRPD>
+  <cache_state>
+  </cache_state>
+ </time_unit_event>
+ <time_unit>9</time_unit>
+ <time_unit_event>
+  <type_of_event>RUNNING_TASK</type_of_event>
+  <running_core>Core_01</running_core>
+  <running_task ref="id_75">
+  </running_task>
+  <current_priority>40</current_priority>
+  <CRPD>0</CRPD>
+  <cache_state>
+  </cache_state>
+ </time_unit_event>
+ <time_unit>10</time_unit>
+ <time_unit_event>
+  <type_of_event>END_OF_TASK_CAPACITY</type_of_event>
+  <end_task ref="id_75">
+  </end_task>
+ </time_unit_event>
+ <time_unit>16</time_unit>
+ <time_unit_event>
+  <type_of_event>TASK_ACTIVATION</type_of_event>
+  <activation_task ref="id_75">
+  </activation_task>
+ </time_unit_event>
+ <time_unit>10</time_unit>
+ <time_unit_event>
+  <type_of_event>START_OF_TASK_CAPACITY</type_of_event>
+  <start_task ref="id_95">
+  </start_task>
+ </time_unit_event>
+ <time_unit>10</time_unit>
+ <time_unit_event>
+  <type_of_event>RUNNING_TASK</type_of_event>
+  <running_core>Core_01</running_core>
+  <running_task ref="id_95">
+  </running_task>
+  <current_priority>10</current_priority>
+  <CRPD>0</CRPD>
+  <cache_state>
+  </cache_state>
+ </time_unit_event>
+ <time_unit>11</time_unit>
+ <time_unit_event>
+  <type_of_event>RUNNING_TASK</type_of_event>
+  <running_core>Core_01</running_core>
+  <running_task ref="id_95">
+  </running_task>
+  <current_priority>10</current_priority>
+  <CRPD>0</CRPD>
+  <cache_state>
+  </cache_state>
+ </time_unit_event>
+ <time_unit>12</time_unit>
+ <time_unit_event>
+  <type_of_event>START_OF_TASK_CAPACITY</type_of_event>
+  <start_task ref="id_96">
+  </start_task>
+ </time_unit_event>
+ <time_unit>12</time_unit>
+ <time_unit_event>
+  <type_of_event>RUNNING_TASK</type_of_event>
+  <running_core>Core_01</running_core>
+  <running_task ref="id_96">
+  </running_task>
+  <current_priority>150</current_priority>
+  <CRPD>0</CRPD>
+  <cache_state>
+  </cache_state>
+ </time_unit_event>
+ <time_unit>12</time_unit>
+ <time_unit_event>
+  <type_of_event>PREEMPTION</type_of_event>
+  <preempted_task ref="id_95">
+  </preempted_task>
+  <preempting_task ref="id_96">
+  </preempting_task>
+  <evicted_ucbs>0</evicted_ucbs>
+ </time_unit_event>
+ <time_unit>13</time_unit>
+ <time_unit_event>
+  <type_of_event>RUNNING_TASK</type_of_event>
+  <running_core>Core_01</running_core>
+  <running_task ref="id_96">
+  </running_task>
+  <current_priority>150</current_priority>
+  <CRPD>0</CRPD>
+  <cache_state>
+  </cache_state>
+ </time_unit_event>
+ <time_unit>14</time_unit>
+ <time_unit_event>
+  <type_of_event>END_OF_TASK_CAPACITY</type_of_event>
+  <end_task ref="id_96">
+  </end_task>
+ </time_unit_event>
+ <time_unit>22</time_unit>
+ <time_unit_event>
+  <type_of_event>TASK_ACTIVATION</type_of_event>
+  <activation_task ref="id_96">
+  </activation_task>
+ </time_unit_event>
+ <time_unit>14</time_unit>
+ <time_unit_event>
+  <type_of_event>START_OF_TASK_CAPACITY</type_of_event>
+  <start_task ref="id_74">
+  </start_task>
+ </time_unit_event>
+ <time_unit>14</time_unit>
+ <time_unit_event>
+  <type_of_event>RUNNING_TASK</type_of_event>
+  <running_core>Core_01</running_core>
+  <running_task ref="id_74">
+  </running_task>
+  <current_priority>100</current_priority>
+  <CRPD>0</CRPD>
+  <cache_state>
+  </cache_state>
+ </time_unit_event>
+ <time_unit>14</time_unit>
+ <time_unit_event>
+  <type_of_event>PREEMPTION</type_of_event>
+  <preempted_task ref="id_95">
+  </preempted_task>
+  <preempting_task ref="id_74">
+  </preempting_task>
+  <evicted_ucbs>0</evicted_ucbs>
+ </time_unit_event>
+ <time_unit>15</time_unit>
+ <time_unit_event>
+  <type_of_event>RUNNING_TASK</type_of_event>
+  <running_core>Core_01</running_core>
+  <running_task ref="id_74">
+  </running_task>
+  <current_priority>100</current_priority>
+  <CRPD>0</CRPD>
+  <cache_state>
+  </cache_state>
+ </time_unit_event>
+ <time_unit>16</time_unit>
+ <time_unit_event>
+  <type_of_event>END_OF_TASK_CAPACITY</type_of_event>
+  <end_task ref="id_74">
+  </end_task>
+ </time_unit_event>
+ <time_unit>18</time_unit>
+ <time_unit_event>
+  <type_of_event>TASK_ACTIVATION</type_of_event>
+  <activation_task ref="id_74">
+  </activation_task>
+ </time_unit_event>
+ <time_unit>16</time_unit>
+ <time_unit_event>
+  <type_of_event>START_OF_TASK_CAPACITY</type_of_event>
+  <start_task ref="id_75">
+  </start_task>
+ </time_unit_event>
+ <time_unit>16</time_unit>
+ <time_unit_event>
+  <type_of_event>RUNNING_TASK</type_of_event>
+  <running_core>Core_01</running_core>
+  <running_task ref="id_75">
+  </running_task>
+  <current_priority>40</current_priority>
+  <CRPD>0</CRPD>
+  <cache_state>
+  </cache_state>
+ </time_unit_event>
+ <time_unit>16</time_unit>
+ <time_unit_event>
+  <type_of_event>PREEMPTION</type_of_event>
+  <preempted_task ref="id_95">
+  </preempted_task>
+  <preempting_task ref="id_75">
+  </preempting_task>
+  <evicted_ucbs>0</evicted_ucbs>
+ </time_unit_event>
+ <time_unit>17</time_unit>
+ <time_unit_event>
+  <type_of_event>RUNNING_TASK</type_of_event>
+  <running_core>Core_01</running_core>
+  <running_task ref="id_75">
+  </running_task>
+  <current_priority>40</current_priority>
+  <CRPD>0</CRPD>
+  <cache_state>
+  </cache_state>
+ </time_unit_event>
+ <time_unit>18</time_unit>
+ <time_unit_event>
+  <type_of_event>END_OF_TASK_CAPACITY</type_of_event>
+  <end_task ref="id_75">
+  </end_task>
+ </time_unit_event>
+ <time_unit>24</time_unit>
+ <time_unit_event>
+  <type_of_event>TASK_ACTIVATION</type_of_event>
+  <activation_task ref="id_75">
+  </activation_task>
+ </time_unit_event>
+ <time_unit>18</time_unit>
+ <time_unit_event>
+  <type_of_event>START_OF_TASK_CAPACITY</type_of_event>
+  <start_task ref="id_74">
+  </start_task>
+ </time_unit_event>
+ <time_unit>18</time_unit>
+ <time_unit_event>
+  <type_of_event>RUNNING_TASK</type_of_event>
+  <running_core>Core_01</running_core>
+  <running_task ref="id_74">
+  </running_task>
+  <current_priority>100</current_priority>
+  <CRPD>0</CRPD>
+  <cache_state>
+  </cache_state>
+ </time_unit_event>
+ <time_unit>18</time_unit>
+ <time_unit_event>
+  <type_of_event>PREEMPTION</type_of_event>
+  <preempted_task ref="id_95">
+  </preempted_task>
+  <preempting_task ref="id_74">
+  </preempting_task>
+  <evicted_ucbs>0</evicted_ucbs>
+ </time_unit_event>
+ <time_unit>19</time_unit>
+ <time_unit_event>
+  <type_of_event>RUNNING_TASK</type_of_event>
+  <running_core>Core_01</running_core>
+  <running_task ref="id_74">
+  </running_task>
+  <current_priority>100</current_priority>
+  <CRPD>0</CRPD>
+  <cache_state>
+  </cache_state>
+ </time_unit_event>
+ <time_unit>20</time_unit>
+ <time_unit_event>
+  <type_of_event>END_OF_TASK_CAPACITY</type_of_event>
+  <end_task ref="id_74">
+  </end_task>
+ </time_unit_event>
+ <time_unit>24</time_unit>
+ <time_unit_event>
+  <type_of_event>TASK_ACTIVATION</type_of_event>
+  <activation_task ref="id_74">
+  </activation_task>
+ </time_unit_event>
+ <time_unit>20</time_unit>
+ <time_unit_event>
+  <type_of_event>RUNNING_TASK</type_of_event>
+  <running_core>Core_01</running_core>
+  <running_task ref="id_95">
+  </running_task>
+  <current_priority>10</current_priority>
+  <CRPD>0</CRPD>
+  <cache_state>
+  </cache_state>
+ </time_unit_event>
+ <time_unit>21</time_unit>
+ <time_unit_event>
+  <type_of_event>RUNNING_TASK</type_of_event>
+  <running_core>Core_01</running_core>
+  <running_task ref="id_95">
+  </running_task>
+  <current_priority>10</current_priority>
+  <CRPD>0</CRPD>
+  <cache_state>
+  </cache_state>
+ </time_unit_event>
+ <time_unit>22</time_unit>
+ <time_unit_event>
+  <type_of_event>START_OF_TASK_CAPACITY</type_of_event>
+  <start_task ref="id_96">
+  </start_task>
+ </time_unit_event>
+ <time_unit>22</time_unit>
+ <time_unit_event>
+  <type_of_event>RUNNING_TASK</type_of_event>
+  <running_core>Core_01</running_core>
+  <running_task ref="id_96">
+  </running_task>
+  <current_priority>150</current_priority>
+  <CRPD>0</CRPD>
+  <cache_state>
+  </cache_state>
+ </time_unit_event>
+ <time_unit>22</time_unit>
+ <time_unit_event>
+  <type_of_event>PREEMPTION</type_of_event>
+  <preempted_task ref="id_95">
+  </preempted_task>
+  <preempting_task ref="id_96">
+  </preempting_task>
+  <evicted_ucbs>0</evicted_ucbs>
+ </time_unit_event>
+ <time_unit>23</time_unit>
+ <time_unit_event>
+  <type_of_event>RUNNING_TASK</type_of_event>
+  <running_core>Core_01</running_core>
+  <running_task ref="id_96">
+  </running_task>
+  <current_priority>150</current_priority>
+  <CRPD>0</CRPD>
+  <cache_state>
+  </cache_state>
+ </time_unit_event>
+ <time_unit>24</time_unit>
+ <time_unit_event>
+  <type_of_event>END_OF_TASK_CAPACITY</type_of_event>
+  <end_task ref="id_96">
+  </end_task>
+ </time_unit_event>
+ <time_unit>32</time_unit>
+ <time_unit_event>
+  <type_of_event>TASK_ACTIVATION</type_of_event>
+  <activation_task ref="id_96">
+  </activation_task>
+ </time_unit_event>
+ <time_unit>24</time_unit>
+ <time_unit_event>
+  <type_of_event>START_OF_TASK_CAPACITY</type_of_event>
+  <start_task ref="id_74">
+  </start_task>
+ </time_unit_event>
+ <time_unit>24</time_unit>
+ <time_unit_event>
+  <type_of_event>RUNNING_TASK</type_of_event>
+  <running_core>Core_01</running_core>
+  <running_task ref="id_74">
+  </running_task>
+  <current_priority>100</current_priority>
+  <CRPD>0</CRPD>
+  <cache_state>
+  </cache_state>
+ </time_unit_event>
+ <time_unit>24</time_unit>
+ <time_unit_event>
+  <type_of_event>PREEMPTION</type_of_event>
+  <preempted_task ref="id_95">
+  </preempted_task>
+  <preempting_task ref="id_74">
+  </preempting_task>
+  <evicted_ucbs>0</evicted_ucbs>
+ </time_unit_event>
+ <time_unit>25</time_unit>
+ <time_unit_event>
+  <type_of_event>RUNNING_TASK</type_of_event>
+  <running_core>Core_01</running_core>
+  <running_task ref="id_74">
+  </running_task>
+  <current_priority>100</current_priority>
+  <CRPD>0</CRPD>
+  <cache_state>
+  </cache_state>
+ </time_unit_event>
+ <time_unit>26</time_unit>
+ <time_unit_event>
+  <type_of_event>END_OF_TASK_CAPACITY</type_of_event>
+  <end_task ref="id_74">
+  </end_task>
+ </time_unit_event>
+ <time_unit>30</time_unit>
+ <time_unit_event>
+  <type_of_event>TASK_ACTIVATION</type_of_event>
+  <activation_task ref="id_74">
+  </activation_task>
+ </time_unit_event>
+ <time_unit>26</time_unit>
+ <time_unit_event>
+  <type_of_event>START_OF_TASK_CAPACITY</type_of_event>
+  <start_task ref="id_75">
+  </start_task>
+ </time_unit_event>
+ <time_unit>26</time_unit>
+ <time_unit_event>
+  <type_of_event>RUNNING_TASK</type_of_event>
+  <running_core>Core_01</running_core>
+  <running_task ref="id_75">
+  </running_task>
+  <current_priority>40</current_priority>
+  <CRPD>0</CRPD>
+  <cache_state>
+  </cache_state>
+ </time_unit_event>
+ <time_unit>26</time_unit>
+ <time_unit_event>
+  <type_of_event>PREEMPTION</type_of_event>
+  <preempted_task ref="id_95">
+  </preempted_task>
+  <preempting_task ref="id_75">
+  </preempting_task>
+  <evicted_ucbs>0</evicted_ucbs>
+ </time_unit_event>
+ <time_unit>27</time_unit>
+ <time_unit_event>
+  <type_of_event>RUNNING_TASK</type_of_event>
+  <running_core>Core_01</running_core>
+  <running_task ref="id_75">
+  </running_task>
+  <current_priority>40</current_priority>
+  <CRPD>0</CRPD>
+  <cache_state>
+  </cache_state>
+ </time_unit_event>
+ <time_unit>28</time_unit>
+ <time_unit_event>
+  <type_of_event>END_OF_TASK_CAPACITY</type_of_event>
+  <end_task ref="id_75">
+  </end_task>
+ </time_unit_event>
+ <time_unit>32</time_unit>
+ <time_unit_event>
+  <type_of_event>TASK_ACTIVATION</type_of_event>
+  <activation_task ref="id_75">
+  </activation_task>
+ </time_unit_event>
+ <time_unit>28</time_unit>
+ <time_unit_event>
+  <type_of_event>RUNNING_TASK</type_of_event>
+  <running_core>Core_01</running_core>
+  <running_task ref="id_95">
+  </running_task>
+  <current_priority>10</current_priority>
+  <CRPD>0</CRPD>
+  <cache_state>
+  </cache_state>
+ </time_unit_event>
+ <time_unit>29</time_unit>
+ <time_unit_event>
+  <type_of_event>END_OF_TASK_CAPACITY</type_of_event>
+  <end_task ref="id_95">
+  </end_task>
+ </time_unit_event>
+ <time_unit>12</time_unit>
+ <time_unit_event>
+  <type_of_event>TASK_ACTIVATION</type_of_event>
+  <activation_task ref="id_95">
+  </activation_task>
+ </time_unit_event>
+ <time_unit>29</time_unit>
+ <time_unit_event>
+  <type_of_event>START_OF_TASK_CAPACITY</type_of_event>
+  <start_task ref="id_95">
+  </start_task>
+ </time_unit_event>
+ <time_unit>29</time_unit>
+ <time_unit_event>
+  <type_of_event>RUNNING_TASK</type_of_event>
+  <running_core>Core_01</running_core>
+  <running_task ref="id_95">
+  </running_task>
+  <current_priority>10</current_priority>
+  <CRPD>0</CRPD>
+  <cache_state>
+  </cache_state>
+ </time_unit_event>
+ <time_unit>30</time_unit>
+ <time_unit_event>
+  <type_of_event>START_OF_TASK_CAPACITY</type_of_event>
+  <start_task ref="id_74">
+  </start_task>
+ </time_unit_event>
+ <time_unit>30</time_unit>
+ <time_unit_event>
+  <type_of_event>RUNNING_TASK</type_of_event>
+  <running_core>Core_01</running_core>
+  <running_task ref="id_74">
+  </running_task>
+  <current_priority>100</current_priority>
+  <CRPD>0</CRPD>
+  <cache_state>
+  </cache_state>
+ </time_unit_event>
+ <time_unit>30</time_unit>
+ <time_unit_event>
+  <type_of_event>PREEMPTION</type_of_event>
+  <preempted_task ref="id_95">
+  </preempted_task>
+  <preempting_task ref="id_74">
+  </preempting_task>
+  <evicted_ucbs>0</evicted_ucbs>
+ </time_unit_event>
+ <time_unit>31</time_unit>
+ <time_unit_event>
+  <type_of_event>RUNNING_TASK</type_of_event>
+  <running_core>Core_01</running_core>
+  <running_task ref="id_74">
+  </running_task>
+  <current_priority>100</current_priority>
+  <CRPD>0</CRPD>
+  <cache_state>
+  </cache_state>
+ </time_unit_event>
+ <time_unit>32</time_unit>
+ <time_unit_event>
+  <type_of_event>END_OF_TASK_CAPACITY</type_of_event>
+  <end_task ref="id_74">
+  </end_task>
+ </time_unit_event>
+ <time_unit>36</time_unit>
+ <time_unit_event>
+  <type_of_event>TASK_ACTIVATION</type_of_event>
+  <activation_task ref="id_74">
+  </activation_task>
+ </time_unit_event>
+ <time_unit>32</time_unit>
+ <time_unit_event>
+  <type_of_event>START_OF_TASK_CAPACITY</type_of_event>
+  <start_task ref="id_96">
+  </start_task>
+ </time_unit_event>
+ <time_unit>32</time_unit>
+ <time_unit_event>
+  <type_of_event>RUNNING_TASK</type_of_event>
+  <running_core>Core_01</running_core>
+  <running_task ref="id_96">
+  </running_task>
+  <current_priority>150</current_priority>
+  <CRPD>0</CRPD>
+  <cache_state>
+  </cache_state>
+ </time_unit_event>
+ <time_unit>32</time_unit>
+ <time_unit_event>
+  <type_of_event>PREEMPTION</type_of_event>
+  <preempted_task ref="id_95">
+  </preempted_task>
+  <preempting_task ref="id_96">
+  </preempting_task>
+  <evicted_ucbs>0</evicted_ucbs>
+ </time_unit_event>
+ <time_unit>33</time_unit>
+ <time_unit_event>
+  <type_of_event>RUNNING_TASK</type_of_event>
+  <running_core>Core_01</running_core>
+  <running_task ref="id_96">
+  </running_task>
+  <current_priority>150</current_priority>
+  <CRPD>0</CRPD>
+  <cache_state>
+  </cache_state>
+ </time_unit_event>
+ <time_unit>34</time_unit>
+ <time_unit_event>
+  <type_of_event>END_OF_TASK_CAPACITY</type_of_event>
+  <end_task ref="id_96">
+  </end_task>
+ </time_unit_event>
+ <time_unit>34</time_unit>
+ <time_unit_event>
+  <type_of_event>START_OF_TASK_CAPACITY</type_of_event>
+  <start_task ref="id_75">
+  </start_task>
+ </time_unit_event>
+ <time_unit>34</time_unit>
+ <time_unit_event>
+  <type_of_event>RUNNING_TASK</type_of_event>
+  <running_core>Core_01</running_core>
+  <running_task ref="id_75">
+  </running_task>
+  <current_priority>40</current_priority>
+  <CRPD>0</CRPD>
+  <cache_state>
+  </cache_state>
+ </time_unit_event>
+ <time_unit>34</time_unit>
+ <time_unit_event>
+  <type_of_event>PREEMPTION</type_of_event>
+  <preempted_task ref="id_95">
+  </preempted_task>
+  <preempting_task ref="id_75">
+  </preempting_task>
+  <evicted_ucbs>0</evicted_ucbs>
+ </time_unit_event>
+ <time_unit>35</time_unit>
+ <time_unit_event>
+  <type_of_event>RUNNING_TASK</type_of_event>
+  <running_core>Core_01</running_core>
+  <running_task ref="id_75">
+  </running_task>
+  <current_priority>40</current_priority>
+  <CRPD>0</CRPD>
+  <cache_state>
+  </cache_state>
+ </time_unit_event>
+ <time_unit>36</time_unit>
+ <time_unit_event>
+  <type_of_event>END_OF_TASK_CAPACITY</type_of_event>
+  <end_task ref="id_75">
+  </end_task>
+ </time_unit_event>
+ <time_unit>40</time_unit>
+ <time_unit_event>
+  <type_of_event>TASK_ACTIVATION</type_of_event>
+  <activation_task ref="id_75">
+  </activation_task>
+ </time_unit_event>
+ <time_unit>36</time_unit>
+ <time_unit_event>
+  <type_of_event>START_OF_TASK_CAPACITY</type_of_event>
+  <start_task ref="id_74">
+  </start_task>
+ </time_unit_event>
+ <time_unit>36</time_unit>
+ <time_unit_event>
+  <type_of_event>RUNNING_TASK</type_of_event>
+  <running_core>Core_01</running_core>
+  <running_task ref="id_74">
+  </running_task>
+  <current_priority>100</current_priority>
+  <CRPD>0</CRPD>
+  <cache_state>
+  </cache_state>
+ </time_unit_event>
+ <time_unit>36</time_unit>
+ <time_unit_event>
+  <type_of_event>PREEMPTION</type_of_event>
+  <preempted_task ref="id_95">
+  </preempted_task>
+  <preempting_task ref="id_74">
+  </preempting_task>
+  <evicted_ucbs>0</evicted_ucbs>
+ </time_unit_event>
+ <time_unit>37</time_unit>
+ <time_unit_event>
+  <type_of_event>RUNNING_TASK</type_of_event>
+  <running_core>Core_01</running_core>
+  <running_task ref="id_74">
+  </running_task>
+  <current_priority>100</current_priority>
+  <CRPD>0</CRPD>
+  <cache_state>
+  </cache_state>
+ </time_unit_event>
+ <time_unit>38</time_unit>
+ <time_unit_event>
+  <type_of_event>END_OF_TASK_CAPACITY</type_of_event>
+  <end_task ref="id_74">
+  </end_task>
+ </time_unit_event>
+ <time_unit>38</time_unit>
+ <time_unit_event>
+  <type_of_event>RUNNING_TASK</type_of_event>
+  <running_core>Core_01</running_core>
+  <running_task ref="id_95">
+  </running_task>
+  <current_priority>10</current_priority>
+  <CRPD>0</CRPD>
+  <cache_state>
+  </cache_state>
+ </time_unit_event>
+ <time_unit>39</time_unit>
+ <time_unit_event>
+  <type_of_event>RUNNING_TASK</type_of_event>
+  <running_core>Core_01</running_core>
+  <running_task ref="id_95">
+  </running_task>
+  <current_priority>10</current_priority>
+  <CRPD>0</CRPD>
+  <cache_state>
+  </cache_state>
+ </time_unit_event>
+</event_table>
+

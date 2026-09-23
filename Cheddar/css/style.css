@@ -1,0 +1,146 @@
+/* Mise en page */
+ 
+body{
+    display: flex; 
+    flex-direction: row;
+    font-family: Lato,proxima-nova,Helvetica Neue,Arial,sans-serif;
+    font-weight: 400;
+    background-color: #f0f0f0;
+    margin: 0; 
+}
+
+#app_info{
+    display: flex; 
+    flex-direction: column;
+    background-color: #404040;
+    position: fixed;
+    top: 0; 
+    left: 0;
+    width: 280px; /* largeur fixe pour la barre verticale */
+    height: 100vh; /* occupe toute la hauteur de la fenêtre */
+}
+
+#app_name{
+    background-color: khaki;
+    color:  #404040;
+    padding:20px;
+}
+
+#menu{
+    background-color: #404040;
+    color:#e0e0e0;
+    text-decoration: none; 
+}
+
+#menu ul:hover{
+  background: #ddd;
+  color: black;
+  text-decoration: none; 
+  padding-top: 15px; 
+  padding-bottom: 15px; 
+}
+
+a{
+    text-decoration: none; 
+    color:#e0e0e0;
+}
+
+#navigation{
+    background-color:#252525;
+    color:#e0e0e0;
+}
+
+#content{
+    padding-left:30px;
+    padding-right:30px;
+    padding-bottom:30px;
+    background-color: white;
+    position: relative; 
+    top: 0;
+    left: 280px;
+}
+
+.nav{
+    border-collapse:collapse;
+    border: none !important;
+    text-align: center;
+}
+
+.nav td:hover{
+    text-align: center; 
+    background-color: rgb(44, 43, 43);
+}
+
+hr{
+    border: 1px solid #e1e4e5;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+
+ol ,ul{
+    padding-right: 40px;
+}
+
+h2{
+    background-color:khaki;
+    padding: 20px;
+    padding-inline-start: 40px; 
+    padding-inline-end: 40px; 
+    color: rgb(116, 105, 3); 
+}
+
+td, th {
+    border: 1px solid #a1a1a1;
+    padding: 25px;
+}
+
+.tasks, .content{
+    background-color: #404040;
+    color:#e0e0e0; 
+    
+}
+        
+input{
+    margin: 3px;
+    text-align: center;
+}
+
+button{
+    margin-left: 10px;
+    background-color:khaki;
+    color:  #303030;
+    border-radius: 10px;
+    padding: 10px; 
+}
+
+button:active{
+    background-color: rgb(146, 140, 83);
+    color: khaki;
+}
+
+.canvasContainer{
+    overflow: auto; /* scroll si besoin */
+    height: 390px;  /* plus petit que le canvas */
+    width: 750px; 
+}
+
+.myCanvas {
+  display: block; /* empêche les marges internes par défaut */
+}
+
+.btnCSS{
+   padding: 7px; 
+   border: 1px solid #b9b9b9;
+   border-radius: 5px;
+}
+
+.links{
+    text-decoration: underline !important; 
+    color:#123186;
+    font-weight: 300;
+}
+
+/*
+.addFontSize{
+    font-size: larger;
+}*/

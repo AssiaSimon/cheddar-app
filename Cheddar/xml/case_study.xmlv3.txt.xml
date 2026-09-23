@@ -1,0 +1,298 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cheddar>
+ <cache_blocks>
+  <cache_block id="id_2">
+   <object_type>CACHE_BLOCK_OBJECT_TYPE</object_type>
+   <name>Cache_01_cb_0</name>
+   <cache_block_number>0</cache_block_number>
+  </cache_block>
+  <cache_block id="id_3">
+   <object_type>CACHE_BLOCK_OBJECT_TYPE</object_type>
+   <name>Cache_01_cb_1</name>
+   <cache_block_number>1</cache_block_number>
+  </cache_block>
+  <cache_block id="id_4">
+   <object_type>CACHE_BLOCK_OBJECT_TYPE</object_type>
+   <name>Cache_01_cb_2</name>
+   <cache_block_number>2</cache_block_number>
+  </cache_block>
+  <cache_block id="id_5">
+   <object_type>CACHE_BLOCK_OBJECT_TYPE</object_type>
+   <name>Cache_01_cb_3</name>
+   <cache_block_number>3</cache_block_number>
+  </cache_block>
+  <cache_block id="id_6">
+   <object_type>CACHE_BLOCK_OBJECT_TYPE</object_type>
+   <name>Cache_01_cb_4</name>
+   <cache_block_number>4</cache_block_number>
+  </cache_block>
+  <cache_block id="id_7">
+   <object_type>CACHE_BLOCK_OBJECT_TYPE</object_type>
+   <name>Cache_01_cb_5</name>
+   <cache_block_number>5</cache_block_number>
+  </cache_block>
+  <cache_block id="id_8">
+   <object_type>CACHE_BLOCK_OBJECT_TYPE</object_type>
+   <name>Cache_01_cb_6</name>
+   <cache_block_number>6</cache_block_number>
+  </cache_block>
+  <cache_block id="id_9">
+   <object_type>CACHE_BLOCK_OBJECT_TYPE</object_type>
+   <name>Cache_01_cb_7</name>
+   <cache_block_number>7</cache_block_number>
+  </cache_block>
+ </cache_blocks>
+ <caches>
+  <instruction_cache id="id_1">
+   <object_type>CACHE_OBJECT_TYPE</object_type>
+   <name>Cache_01</name>
+   <cache_size>8</cache_size>
+   <line_size>1</line_size>
+   <associativity>1</associativity>
+   <block_reload_time>1</block_reload_time>
+   <replacement_policy>RANDOM</replacement_policy>
+   <coherence_protocol>PRIVATE_CACHE_PROTOCOL</coherence_protocol>
+   <cache_category>INSTRUCTION_CACHE_TYPE</cache_category>
+   <cache_blocks>
+    <cache_block ref="id_2">
+    </cache_block>
+    <cache_block ref="id_3">
+    </cache_block>
+    <cache_block ref="id_4">
+    </cache_block>
+    <cache_block ref="id_5">
+    </cache_block>
+    <cache_block ref="id_6">
+    </cache_block>
+    <cache_block ref="id_7">
+    </cache_block>
+    <cache_block ref="id_8">
+    </cache_block>
+    <cache_block ref="id_9">
+    </cache_block>
+   </cache_blocks>
+  </instruction_cache>
+ </caches>
+ <cache_access_profiles>
+  <cache_access_profile id="id_13">
+   <object_type>CACHE_ACCESS_PROFILE_OBJECT_TYPE</object_type>
+   <name>CAP_1</name>
+   <ucbs>
+    <cache_block ref="id_2">
+    </cache_block>
+    <cache_block ref="id_3">
+    </cache_block>
+    <cache_block ref="id_4">
+    </cache_block>
+   </ucbs>
+   <ecbs>
+    <cache_block ref="id_2">
+    </cache_block>
+    <cache_block ref="id_3">
+    </cache_block>
+    <cache_block ref="id_4">
+    </cache_block>
+    <cache_block ref="id_5">
+    </cache_block>
+    <cache_block ref="id_6">
+    </cache_block>
+    <cache_block ref="id_7">
+    </cache_block>
+    <cache_block ref="id_8">
+    </cache_block>
+    <cache_block ref="id_9">
+    </cache_block>
+   </ecbs>
+  </cache_access_profile>
+  <cache_access_profile id="id_14">
+   <object_type>CACHE_ACCESS_PROFILE_OBJECT_TYPE</object_type>
+   <name>CAP_2</name>
+   <ucbs>
+    <cache_block ref="id_2">
+    </cache_block>
+    <cache_block ref="id_3">
+    </cache_block>
+   </ucbs>
+   <ecbs>
+    <cache_block ref="id_2">
+    </cache_block>
+    <cache_block ref="id_3">
+    </cache_block>
+    <cache_block ref="id_4">
+    </cache_block>
+    <cache_block ref="id_5">
+    </cache_block>
+   </ecbs>
+  </cache_access_profile>
+  <cache_access_profile id="id_15">
+   <object_type>CACHE_ACCESS_PROFILE_OBJECT_TYPE</object_type>
+   <name>CAP_3</name>
+   <ucbs>
+    <cache_block ref="id_6">
+    </cache_block>
+   </ucbs>
+   <ecbs>
+    <cache_block ref="id_6">
+    </cache_block>
+    <cache_block ref="id_7">
+    </cache_block>
+    <cache_block ref="id_8">
+    </cache_block>
+    <cache_block ref="id_9">
+    </cache_block>
+   </ecbs>
+  </cache_access_profile>
+ </cache_access_profiles>
+ <core_units>
+  <core_unit id="id_10">
+   <object_type>CORE_OBJECT_TYPE</object_type>
+   <name>Core_01</name>
+   <scheduling>
+    <scheduling_parameters>
+     <scheduler_type>POSIX_1003_HIGHEST_PRIORITY_FIRST_PROTOCOL</scheduler_type>
+     <quantum>0</quantum>
+     <preemptive_type>PREEMPTIVE</preemptive_type>
+     <capacity>1</capacity>
+     <period>1</period>
+     <priority>1</priority>
+     <start_time>0</start_time>
+    </scheduling_parameters>
+   </scheduling>
+   <speed>1</speed>
+   <l1_cache_system_name>Cache_01</l1_cache_system_name>
+   <worstcase_perequest_intrabank_memory_interference>0</worstcase_perequest_intrabank_memory_interference>
+   <worstcase_perequest_interbank_memory_interference>0</worstcase_perequest_interbank_memory_interference>
+   <isa>I386</isa>
+  </core_unit>
+ </core_units>
+ <processors>
+  <mono_core_processor id="id_11">
+   <object_type>PROCESSOR_OBJECT_TYPE</object_type>
+   <name>CPU_01</name>
+   <processor_type>MONOCORE_TYPE</processor_type>
+   <migration_type>NO_MIGRATION_TYPE</migration_type>
+   <core ref="id_10">
+   </core>
+  </mono_core_processor>
+ </processors>
+ <address_spaces>
+  <address_space id="id_12">
+   <object_type>ADDRESS_SPACE_OBJECT_TYPE</object_type>
+   <name>Address_Space_01</name>
+   <cpu_name>CPU_01</cpu_name>
+   <text_memory_size>1024</text_memory_size>
+   <stack_memory_size>1024</stack_memory_size>
+   <data_memory_size>1024</data_memory_size>
+   <heap_memory_size>1024</heap_memory_size>
+   <scheduling>
+    <scheduling_parameters>
+     <scheduler_type>NO_SCHEDULING_PROTOCOL</scheduler_type>
+     <quantum>0</quantum>
+     <preemptive_type>PREEMPTIVE</preemptive_type>
+     <capacity>0</capacity>
+     <period>0</period>
+     <priority>0</priority>
+     <start_time>0</start_time>
+    </scheduling_parameters>
+   </scheduling>
+   <mils_confidentiality_level>TOP_SECRET</mils_confidentiality_level>
+   <mils_integrity_level>HIGH</mils_integrity_level>
+   <mils_component>SLS</mils_component>
+   <mils_partition>DEVICE</mils_partition>
+   <mils_compliant>TRUE</mils_compliant>
+  </address_space>
+ </address_spaces>
+ <tasks>
+  <periodic_task id="id_16">
+   <object_type>TASK_OBJECT_TYPE</object_type>
+   <name>Task_1</name>
+   <task_type>PERIODIC_TYPE</task_type>
+   <cpu_name>CPU_01</cpu_name>
+   <address_space_name>Address_Space_01</address_space_name>
+   <capacity>1</capacity>
+   <deadline>20</deadline>
+   <start_time>3</start_time>
+   <priority>3</priority>
+   <blocking_time>0</blocking_time>
+   <policy>SCHED_FIFO</policy>
+   <text_memory_size>0</text_memory_size>
+   <text_memory_start_address>0</text_memory_start_address>
+   <stack_memory_size>0</stack_memory_size>
+   <criticality>0</criticality>
+   <context_switch_overhead>0</context_switch_overhead>
+   <cfg_relocatable>FALSE</cfg_relocatable>
+   <cache_access_profile_name>CAP_1</cache_access_profile_name>
+   <mils_confidentiality_level>TOP_SECRET</mils_confidentiality_level>
+   <mils_integrity_level>HIGH</mils_integrity_level>
+   <mils_component>SLS</mils_component>
+   <mils_task>APPLICATION</mils_task>
+   <mils_compliant>TRUE</mils_compliant>
+   <access_memory_number>0</access_memory_number>
+   <maximum_number_of_memory_request_per_job>0</maximum_number_of_memory_request_per_job>
+   <period>20</period>
+   <jitter>0</jitter>
+   <every>0</every>
+  </periodic_task>
+  <periodic_task id="id_17">
+   <object_type>TASK_OBJECT_TYPE</object_type>
+   <name>Task_2</name>
+   <task_type>PERIODIC_TYPE</task_type>
+   <cpu_name>CPU_01</cpu_name>
+   <address_space_name>Address_Space_01</address_space_name>
+   <capacity>4</capacity>
+   <deadline>30</deadline>
+   <start_time>0</start_time>
+   <priority>2</priority>
+   <blocking_time>0</blocking_time>
+   <policy>SCHED_FIFO</policy>
+   <text_memory_size>0</text_memory_size>
+   <text_memory_start_address>0</text_memory_start_address>
+   <stack_memory_size>0</stack_memory_size>
+   <criticality>0</criticality>
+   <context_switch_overhead>0</context_switch_overhead>
+   <cfg_relocatable>FALSE</cfg_relocatable>
+   <cache_access_profile_name>CAP_2</cache_access_profile_name>
+   <mils_confidentiality_level>TOP_SECRET</mils_confidentiality_level>
+   <mils_integrity_level>HIGH</mils_integrity_level>
+   <mils_component>SLS</mils_component>
+   <mils_task>APPLICATION</mils_task>
+   <mils_compliant>TRUE</mils_compliant>
+   <access_memory_number>0</access_memory_number>
+   <maximum_number_of_memory_request_per_job>0</maximum_number_of_memory_request_per_job>
+   <period>30</period>
+   <jitter>0</jitter>
+   <every>0</every>
+  </periodic_task>
+  <periodic_task id="id_18">
+   <object_type>TASK_OBJECT_TYPE</object_type>
+   <name>Task_3</name>
+   <task_type>PERIODIC_TYPE</task_type>
+   <cpu_name>CPU_01</cpu_name>
+   <address_space_name>Address_Space_01</address_space_name>
+   <capacity>4</capacity>
+   <deadline>30</deadline>
+   <start_time>10</start_time>
+   <priority>1</priority>
+   <blocking_time>0</blocking_time>
+   <policy>SCHED_FIFO</policy>
+   <text_memory_size>0</text_memory_size>
+   <text_memory_start_address>0</text_memory_start_address>
+   <stack_memory_size>0</stack_memory_size>
+   <criticality>0</criticality>
+   <context_switch_overhead>0</context_switch_overhead>
+   <cfg_relocatable>FALSE</cfg_relocatable>
+   <cache_access_profile_name>CAP_3</cache_access_profile_name>
+   <mils_confidentiality_level>TOP_SECRET</mils_confidentiality_level>
+   <mils_integrity_level>HIGH</mils_integrity_level>
+   <mils_component>SLS</mils_component>
+   <mils_task>APPLICATION</mils_task>
+   <mils_compliant>TRUE</mils_compliant>
+   <access_memory_number>0</access_memory_number>
+   <maximum_number_of_memory_request_per_job>0</maximum_number_of_memory_request_per_job>
+   <period>30</period>
+   <jitter>0</jitter>
+   <every>0</every>
+  </periodic_task>
+ </tasks>
+</cheddar>
+

@@ -1,0 +1,13 @@
+site_name: Cheddar Web 0.1 User Guide
+theme:
+  name: readthedocs
+nav:
+  - Home - Table of Contents: 'index.md'
+  - 1 - Scheduling Simulation: 'scheduling_simulation.md'
+  - 2 - Generating a System Model: 'generating_model.md'
+
+markdown_extensions:
+  - toc:
+      permalink: "#"
+      baselevel: 2
+      separator: "_"

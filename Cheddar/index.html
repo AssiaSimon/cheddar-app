@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cheddar - Scheduling Simulation</title>
+    <link rel="stylesheet" href="css/style.css"/>
+     <script src="script/config.js" defer></script>
+    <script src="script/simulation.js" defer></script>
+</head>
+
+<body>
+    <div id="app_info" width="400px">
+        <div id="app_name">
+            <h3> 
+                <img src="img/home-icon.png" height="30px" width="30px">
+                Cheddar Web App
+            </h3>
+        </div>
+        <div id="menu">
+            <ol><strong>Home Table of Content</strong></ol>
+            <hr>
+            <a><ul>1 - Scheduling Simulation</ul></a>
+            <a href="page/generate_model.html"><ul>2 - Generating a System Model</ul></a>
+            <br><br>
+        </div>
+        <div id="navigation">
+            <table class="nav">
+                <td class="nav">Previous</td>
+                <td class="nav"><a href="page/generate_model.html">Next</a></td>
+            </table>
+        </div>
+    </div>
+    <div id="content">
+        <br>
+        <p>
+            <img src="img/home-icon.png" height="15px" width="15px">
+            <img src="img/direction-icon.png" height="14px" width="14px">
+            Cheddar Scheduling Simulation
+        </p>
+        <hr>
+        <h2>1 - Scheduling Simulation</h2>
+        <br>
+        <table>
+            <tr>
+                <td class="tasks">
+                    <label for="system_model">Enter System Model's URL</label>
+                    <input type="text" id="system_model" name="system_model" size="60" onclick="loadXMLDoc()">
+                    <br><br>
+                    <label for="event_table">Enter Event Table's URL</label>
+                    <input type="text" id="event_table" name="event_table" size="62" onclick="loadXMLDoc()">
+                    <br><br>
+                    <label for="draw_upto">Draw upto</label>
+                    <input type="text" id="draw_upto" name="draw_upto" size="5" 
+                    style="margin-right:20px">
+                    <button type="button" id="loadDataBtn" onclick="loadXMLDoc()">
+                        <strong>Simulate</strong>
+                    </button>
+                    <button type="button" id="eraseDataBtn" onclick="erase()">
+                        <strong>Erase</strong>
+                    </button>
+                    <label for="size" style="margin-left: 20px;">Size</label>
+                    <button type="button" id="makeBigger" onclick="bigger()">
+                        <strong>+</strong>
+                    </button>
+                    <button type="button" id="makeSmaller" onclick="smaller()" style="margin-right:20px">
+                        <strong>-</strong>
+                    </button>
+                    <button type="button" id="ex1" onclick="getURL1()">
+                       <strong>Ex 1</strong> 
+                    </button>
+                    <button type="button" id="ex2" onclick="getURL2()">
+                       <strong>Ex 2</strong> 
+                    </button>
+                     <button type="button" id="ex3" onclick="getURL3()">
+                       <strong>Ex 3</strong> 
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <td id="canvasZone">
+                    <div class="canvasContainer">
+                        <canvas class="myCanvas" width="750" height="430">Canvas
+                        </canvas>
+                    </div>
+                    <br><hr>
+                    <label for="period_delimitation">Period Delimitation</label>
+                    <input type="color" id="period_delimitation" name="period_delimitation" onclick="drawEvent()"
+                    value="black">
+                    <label for="begin_resource" style="margin-left:50px">Beginning</label>
+                    <input type="color" id="begin_resource" name="begin_resource" onclick="drawEvent()"
+                    value="black">
+                    <label for="end_resource">End</label>
+                    <input type="color" id="end_resource" name="end_resource" onclick="drawEvent()"
+                    value="#de0214">
+                    <span>of Resource</span>
+                </td>
+            </tr>
+            <tr></tr>
+        </table>
+        <br>
+        <table id="data">
+            
+        </table>
+    
+    </div>
+</body>
+
+</html>
